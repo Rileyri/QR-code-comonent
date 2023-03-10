@@ -1,0 +1,43 @@
+html{
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+h3 {
+    color: hsl(218, 44%, 22%);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 10px 10px;
+}
+
+.invite-box{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.qr-code-image{
+    border-radius: 10px;
+}
